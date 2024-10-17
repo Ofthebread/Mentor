@@ -1,0 +1,75 @@
+* {
+	margin:0;
+box-sizing: border-box;
+padding: 0;
+}
+
+body {
+	width: 100%;
+	background-image: url('https://img.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg?t=st=1729165331~exp=1729168931~hmac=0b54a954855c3210c2895680e9ae784557e81fc625288070e114b17d650856de&w=900');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+ 	display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Asegura que el body ocupe toda la pantalla */
+    margin: 0;
+}
+main > section {
+background-color: rgba(213,225,239,255) ;
+width: 95vw;
+height: 45vh;
+margin: 0 auto;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 15px 30px 0 rgba(184, 178, 178, 0.568) ;
+
+}
+
+main > section > div {
+	
+	background-color: white;
+	width: 180px;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 5%;
+	box-shadow: 0 15px 30px 0 rgba(184, 178, 178, 0.568);
+	padding-bottom: 5px;
+
+
+}
+
+section>div > nav img {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	border-radius: 15px;
+	display: flex;
+	align-items: flex-start;
+}
+
+main > section> div p{
+	text-align: center;
+	list-style: none;
+	padding: 5px 8px 5px 10px;
+	margin: 0 3px;
+	
+}
+
+main > section> div p#improve {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	
+
+}
+main > section> div p#scan {
+	font-size: 10px;
+	color: grey;
+	margin-bottom: 10px;
+	
+	
+}
